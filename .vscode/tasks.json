@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/src/Autofac/DC.Autofac/DC.Autofac.ConsoleApp1/DC.Autofac.ConsoleApp1.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
